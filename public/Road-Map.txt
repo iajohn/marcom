@@ -1,0 +1,129 @@
+LIST OF PROJECT LIFECYCLE
+
+1.  Brief collection
+
+2.  Understanding the brief
+
+3.  Brainstorming
+
+4.  Strategy document
+
+5.  Pitching executional plan/ideas with clients
+
+6.  Reviewing executional plan
+
+7.  Client's signoff/Purchase order
+
+8.  Execution of the plan
+
+9.  Reporting
+
+10. Project close out
+
+
+==========================================================================================================================
+==========================================================================================================================
+
+DEVELOPMENT MAP
+
+==========================================================================================================================
+==========================================================================================================================
+
+MODULE: Brief
+
+DESCRIPTION 
+A word documents that contains the project requirements.
+
+FEATURES
+* Creating/Quick Generating of brief documents
+* Editing/Updating brief documents
+* Inviting Collaborators by sending document link to mail
+* Cloning document with privacy access into offline device in word doc/docx format/Copying online and re-submitting
+* Document Privacy (public/private, clonable/copyable)
+
+DATABASE STRUCTURE
+
+Table Name => briefs 
+
+Fields              Type
+id                  BigInt
+user_id             BigInt
+title               String
+
+==========================================================================================================================
+==========================================================================================================================
+
+MODULE: Brainstorm
+
+DESCRIPTION 
+A forum or group discussion where 
+team members can come together to 
+share ideas on a particular project 
+before execution.
+
+FEATURES
+* Live chat
+* Inviting/Adding of team members existing on the platform of via mail
+* Importing/Uploading documents needed to be delibrate upon
+* Downloading of conversation in txt format
+* Creating of group and individual notes for jotting points during conversation
+
+DATABASE STRUCTURE
+fields              Type
+id                  BigInt
+name                String
+privacy             Bool
+
+
+==========================================================================================================================
+==========================================================================================================================
+
+MODULE: Brainstorm notes
+
+DESCRIPTION 
+A notebook  or group discussion where 
+team members can come together to 
+share ideas on a particular project 
+before execution.
+
+FEATURES
+* Live chat
+* Inviting/Adding of team members existing on the platform of via mail
+* Importing/Uploading documents needed to be delibrate upon
+* Downloading of conversation in txt format
+* Creating of group and individual notes for jotting points during conversation
+
+DATABASE STRUCTURE
+fields              Type
+id                  BigInt
+name                String
+privacy             Bool
+
+==========================================================================================================================
+==========================================================================================================================
+
+==========================================================================================================================
+==========================================================================================================================
+
+MODULE: Strategy
+
+DESCRIPTION 
+A slide-points documents that contains the execution plans
+derived from the ideas given during brainstorming stage.
+
+FEATURES
+* Live chat
+* Inviting/Adding of team members existing on the platform of via mail
+* Importing/Uploading documents needed to be delibrate upon
+* Downloading of conversation in txt format
+* Creating of group and individual notes for jotting points during conversation
+
+DATABASE STRUCTURE
+fields              Type
+id                  BigInt
+name                String
+privacy             Bool
+
+==========================================================================================================================
+==========================================================================================================================
+
